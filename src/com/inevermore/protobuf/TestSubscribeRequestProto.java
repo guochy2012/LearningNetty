@@ -21,6 +21,7 @@ public class TestSubscribeRequestProto
 		return SubscribeRequestProto.SubscribeRequest.parseFrom(body);
 	}
 
+	//创建SubReq对象
 	private static SubscribeRequestProto.SubscribeRequest createSubscribeRequest()
 	{
 		SubscribeRequestProto.SubscribeRequest.Builder builder = SubscribeRequestProto.SubscribeRequest
